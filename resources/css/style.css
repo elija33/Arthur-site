@@ -206,28 +206,12 @@ header {
 /*---------------------------------------------------*/
 
 .SlideNiv {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/dar.jpg); 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/dar.jpg);
+    background-image: linear-gradient(rgba(18, 16, 16, 0.94), rgba(8, 7, 7, 0.85));
     background-size: cover;
     height: 100vh;
-    background-attachment: fixed;
-    @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
+    background-attachment: relative;
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
-}
 
 .logo {
     height: 100px;
@@ -489,7 +473,7 @@ cite img {
 /* SIGN UP */
 /* ----------------------------------------------- */
 
-.section-plans {
+/******.section-plans {
     background-color: #f4f4f4;
 }
 
@@ -540,7 +524,7 @@ cite img {
 
 .plan-box ul li {
     padding: 5px 0;
-}
+}******/
 
 
 /* ----------------------------------------------- */
@@ -682,19 +666,30 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
+/***************************************************/
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
 }

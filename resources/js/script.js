@@ -82,8 +82,3 @@ $(document).ready(function() {
         
     });
 });
-$(document).ready(function(){
-    $("document").scrollDown(function(){
-        $(".header").fadeOut("slow");
-    });
-});
