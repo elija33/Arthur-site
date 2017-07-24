@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    
+    
     /* For the sticky navigation */
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
@@ -22,7 +24,6 @@ $(document).ready(function() {
     
     
     /* Navigation scroll */
-
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -78,7 +79,6 @@ $(document).ready(function() {
         } else {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
-        }
-        
+        }        
     });
 });
