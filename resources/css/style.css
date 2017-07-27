@@ -11,6 +11,7 @@ Orange color: #e67e22
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -67,9 +68,9 @@ h1 {
     color: #fff;
     font-size: 230%;
     word-spacing: 4px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
@@ -167,14 +168,14 @@ input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
-    margin-left: 30%;
+    margin-left: 0%;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #e67e22;
-    color: #e67e22;
-    margin-left: 1%;
+    color: #222ae6;
+    margin-left: 0%;
     
 }
 
@@ -182,7 +183,7 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #e8eaf7;
 }
 
 .btn-full:hover,
@@ -192,7 +193,7 @@ input[type=submit]:active {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #e67e22;
     color: #fff;
 }
 
@@ -202,8 +203,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(232, 227, 227, 0), rgba(13, 12, 12, 0)), url(img/love.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(7, 6, 6, 0)), url(img/love.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(7, 6, 6, 0))), url(img/pexels-photo-503074.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(7, 6, 6, 0)), url(img/pexels-photo-503074.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -214,7 +215,39 @@ header {
     width: 1140px;
     top: 60%;
     left: 50%;
+    -webkit-transform: translate(-50%,-70%);
     transform: translate(-50%,-70%)
+}
+/* animated search*/
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
 }
 
 .nav-up {
@@ -287,6 +320,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
@@ -342,16 +376,17 @@ header {
     width: 100%;
     height: auto;
     -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .meal-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
     transform: scale(1.03);
 }
 
@@ -439,8 +474,8 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/wedding-443600_1280.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/wedding-443600_1280.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -490,6 +525,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
 }
 
@@ -564,7 +600,18 @@ input[type=checkbox] {
 
 *:focus {outline: none;}
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    color: #333;
+    
+}
 
+.success {background-color: rgba(38, 191, 68, 0.8); }
+.error { background-color: rgba(209, 46, 46, 0.8);}
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */

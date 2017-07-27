@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-
-        <meta name = "description" content=" Find quality Wedding photographer, Prom photographer, Birthday photographer, School photographers, Real estate photographers Vendors located in your area; use our innovative tools to plan your event with our budget, checklist and much more., . ">
-
+        
+        <meta name = "description" content=" Find a professional Wedding photographer, Prom photographer, Birthday photographer, School photographers, Real estate photographers Vendors located in your area; use our innovative tools to plan your event with our budget, checklist and much more., . ">
+        
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -14,36 +15,48 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="darkphoto.png" type="image/x-icon"/>
-
-
-        <title>Wedding - Prom - Graduation - Birthday - Funerals Photography - Photographer-Occupation | Adreamevents</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        
+        <title>Adreaments: Find Wedding - Prom - Graduation - Birthday - Funerals Photography - Photographer-Occupation</title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/favicons/manifest.json">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <img src="resources/img/pho.png" alt="Omnifood logo" class="logo">
-                    <img src="resources/img/darkphoto.png" alt="Omnifood logo" class="logo-black">
+                    <img src="resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo">
+                    <img src="resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo-black">
                     <ul class="main-nav js--main-nav">
                         <li><a href="#features">Photographers</a></li>
                         <li><a href="#works">Venues</a></li>
                         <li><a href="#cities">Planning</a></li>
                         <li><a href="#plans">Get Started</a></li>
-                        <li><a href="shop">Shop</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-
+            
             <div class="SlideNiv">
-                <h1><b>find the best  professional vendor.<br> for the right price.</b></h1>
+                <h1> <b>find the best  professional vendor.<br> for the right price.</b></h1>
                 <a class="btn btn-full js--scroll-to-plans" href="#">Get Started</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+                <form>
+                  <input type="text" name="search" placeholder="Search..">
+                </form>
+
+
             </div>
         </header>
-
+            
         <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>Get High quality &mdash; not low quality</h2>
@@ -51,7 +64,7 @@
                     Hello, we're Adream, your new vendor specialist. We know you're always busy. No time to find a professional photographers. So let us take care of that, we're really good at it, we promise!
                 </p>
             </div>
-
+            
             <!--------<div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <i class="ion-camera icon-big"></i>
@@ -81,9 +94,9 @@
                         We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
                     </p>
                 </div>
-            </div>
+            </div>   
         </section> ----->
-
+        
         <section class="section-meals">
             <ul class="meals-showcase clearfix">
                 <li>
@@ -130,7 +143,7 @@
                 </li>
             </ul>
         </section>
-
+        
         <section class="section-steps" id="works">
             <div class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -152,14 +165,14 @@
                         <div>3</div>
                         <p>Hire the right vendor When you’re ready, hire the perfect wedding vendors at a price that’s right for you and your budget.</p>
                     </div>
-
+                    
                     <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
                     <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
                 </div>
             </div>
         </section>
-
-
+                                                                                    
+        
         <section class="section-cities" id="cities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
@@ -177,8 +190,8 @@
                         60+ top photographers
                     </div>
                     <div class="city-feature">
-                        <!--<i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@omnifood_NY</a>-->
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@adreamevents_NY</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -193,8 +206,8 @@
                         90+ top photographers
                     </div>
                     <div class="city-feature">
-                        <!--<i class="ion-social-twitter icon-small"></i>-->
-                      <!-- <a href="#">@omnifood_NJ</a>-->
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@adreamevents_NJ</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -209,8 +222,8 @@
                         110+ top phographers
                     </div>
                     <div class="city-feature">
-                        <!--<i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@omnifood_delaware</a>-->
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@adreamevents_delaware</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -225,14 +238,14 @@
                         50+ top photographers
                     </div>
                     <div class="city-feature">
-                        <!--<i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@omnifood_philly</a>-->
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@adreamevents_philly</a>
                     </div>
                 </div>
             </div>
-
+            
         </section>
-
+        
         <section class="section-testimonials">
             <div class="row">
                 <h2>Our customers can't live without us</h2>
@@ -241,25 +254,25 @@
                 <div class="col span-1-of-3">
                     <blockquote>
                         Adreamevent is just awesome! I just launched a startup which leaves me with no time to plan for my wedding, so Adreamevents is a life-saver. I got a photographer fast, and We love our wedding pictures, it looks amazing!
-                        <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+                        <cite><img src="resources/img/customer-1.jpg" alt="Albert D testimony">Alberto Duncan</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                        We had a tight budget for our event. Thanks to Adreamevent, we find The right photographer for the right price, no one comes even close to Adreamevents. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+                        <cite><img src="resources/img/customer-2.jpg" alt="Joan S testimoneny">Joana Silva</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
 I was looking for a professional photographer for my dather prom in New Jersey. I tried a lot of website and ended up with Adreamevetn. I found the best photographer in the Area. Keep up the great work!
-                    <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+                    <cite><img src="resources/img/customer-3.jpg" alt="Milton C testimoney">Milton Chapman</cite>
                     </blockquote>
                 </div>
             </div>
         </section>
-
-
+        
+        
         <!--------------------
     <section class="section-plans js--section-plans" id="plans">
             <div class="row">
@@ -328,21 +341,34 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
                 </div>
             </div>
         </section>----->
-
-        <section class="section-form">
+        
+    
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
+            
             <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
+                 <form method="post" action="mailer.php" class="contact-form">
+                     <div class="row">
+                <?php
+                if($_GET['success']== 1){
+                    echo "<div class=\"form-messages success\"> Thank you! Your message has been sent.</div>";
+                }
+                if($_GET['success']== -1) {
+                    echo "<div class=\"form-messages error\"> Oops! Something went wrong. Please try again.</div>";
+                }
+                    ?>
+            </div>
+            
+            <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
                         </div>
-                    </div>
+                     </div>
+                   
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="email">Email</label>
@@ -366,10 +392,10 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>Phone number</label>
+                            <label>Newsletter?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <!--<input type="checkbox" name="news" id="news" checked>-->(609) 635-1704
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
                         </div>
                     </div>
                     <div class="row">
@@ -388,12 +414,11 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
                             <input type="submit" value="Send it!">
                         </div>
                     </div>
-
+                    
                 </form>
-
+                
             </div>
-        </section>
-
+        
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -408,8 +433,8 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
                 <div class="col span-1-of-2">
                     <ul class="social-links">
                         <li><a href="https://www.facebook.com/ThaDreamWay/?ref=settings"><i class="ion-social-facebook"></i></a></li>
-                        <!--<li><a href="#"><i class="ion-social-twitter"></i></a></li>-->
-                        <!--<li><a href="#"><i class="ion-social-googleplus"></i></a></li>-->
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                         <li><a href="https://www.instagram.com/adreamevents/"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
@@ -417,12 +442,12 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
             <div class="row">
                 <p> © 2017 Adreamevents Solutions, LLC.All Rights Reserved.
                 </p>
-                <!--<p>
+                <p>
                     Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> in the beautiful city of Trenton, NJ, July 2017.
-                </p>-->
+                </p>
             </div>
         </footer>
-
+        
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -438,7 +463,7 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
   ga('send', 'pageview');
 
 </script>
-
+    
     </body>
-
+    
 </html>

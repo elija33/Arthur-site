@@ -19,6 +19,7 @@
         margin-left: 10%;
     }
     
+    
     .steps-box { margin-top: 10px; }
     .steps-box:last-child { margin-top: 10px; }
     .works-steps { margin-bottom: 40px; }
@@ -114,7 +115,7 @@
 
 
 /* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
 }
