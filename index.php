@@ -6,7 +6,7 @@
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         
-        <meta name = "description" content=" Find a professional Wedding photographer, Prom photographer, Birthday photographer, School photographers, Real estate photographers Vendors located in your area; use our innovative tools to plan your event with our budget, checklist and much more., . ">
+        <meta name = "description" content=" Find quality Wedding photographer, Prom photographer, Birthday photographer, School photographers, Real estate photographers Vendors located in your area; use our innovative tools to plan your event with our budget, checklist and much more., . ">
         
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         
         
-        <title>Adreaments: Find Wedding - Prom - Graduation - Birthday - Funerals Photography - Photographer-Occupation</title>
+        <title>Adreaments: Wedding - Prom - Graduation - Birthday - Funerals Photography - Photographer-Occupation</title>
         
         <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
@@ -29,30 +29,30 @@
         <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
         
+        
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <img src="resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo">
-                    <img src="resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo-black">
+                   <img src="/resources/favicons/camera-icon.png" alt="Adream" class="logo">
+                    <img src="/resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo-black">
                     <ul class="main-nav js--main-nav">
                         <li><a href="#features">Photographers</a></li>
                         <li><a href="#works">Venues</a></li>
                         <li><a href="#cities">Planning</a></li>
-                        <li><a href="#plans">Get Started</a></li>
+                        <li><a href="#plans">Login</a></li>
+                        <li><a href="Join">Join</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
             
             <div class="SlideNiv">
-                <h1> <b>find the best  professional vendor.<br> for the right price.</b></h1>
-                <a class="btn btn-full js--scroll-to-plans" href="#">Get Started</a>
-                <form>
-                  <input type="text" name="search" placeholder="Search..">
+                <h1> <b>find the best vendor for the right price.</b></h1>
+                 <form>
+                  <input class= "btn btn-ghost" type="text" name="search" placeholder="Search weddings photographers.....">
                 </form>
-
 
             </div>
         </header>
