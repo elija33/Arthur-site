@@ -29,19 +29,20 @@
         <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
         
+        
     </head>
     <body>
         <header>
             <nav>
                 <div class="row">
-                    <div class="logo"><a href="index.html"><b>ADREAMEVENTS</b></a></div>
-                    <img src="/resources/favicons/safari-pinned-tab.svg" alt="Adreamlogo" class="logo-black">
+                   <img src="/resources/favicons/camera-icon.png" alt="Adream" class="logo">
+                    <img src="/resources/favicons/apple-touch-icon.png" alt="Adream logo" class="logo-black">
                     <ul class="main-nav js--main-nav">
                         <li><a href="#features">Photographers</a></li>
                         <li><a href="#works">Venues</a></li>
                         <li><a href="#cities">Planning</a></li>
-                        <li><a href="login.html">Log in</a></li>
-                        <li><a href="joinus.html">Register</a></li>
+                        <li><a href="#plans">Login</a></li>
+                        <li><a href="Join">Join</a></li>
                     </ul>
                     <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
@@ -50,7 +51,7 @@
             <div class="SlideNiv">
                 <h1> <b>find the best vendor for the right price.</b></h1>
                  <form>
-                  <input type="text" name="search" placeholder="Search weddings photographers.....">
+                  <input class= "btn btn-ghost" type="text" name="search" placeholder="Search weddings photographers.....">
                 </form>
 
             </div>
@@ -60,7 +61,7 @@
             <div class="row">
                 <h2>Get High quality &mdash; not low quality</h2>
                 <p class="long-copy">
-                    Hello, we're Adream, your new vendor specialist. We know you're always busy. No time to find a professional photographers, Videographers, Wedding planner or DJ's. So let us take care of that, we're really good at it, we promise!
+                    Hello, we're Adream, your new vendor specialist. We know you're always busy. No time to find a professional photographers. So let us take care of that, we're really good at it, we promise!
                 </p>
             </div>
             
@@ -154,7 +155,7 @@
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step clearfix">
                         <div>1</div>
-                        <p>Get introduced to vendors within hours of telling us what you need, plan your event ideas, and invitations.</p>
+                        <p>Get introduced to vendors within hours of telling us what you need, you’ll receive proposals from several local professionals ready to help you.</p>
                     </div>
                     <div class="works-step clearfix">
                         <div>2</div>
@@ -162,7 +163,7 @@
                     </div>
                     <div class="works-step clearfix">
                         <div>3</div>
-                        <p>Hire the right vendor when you’re ready, hire the perfect photographer, DJ's, Videographers at a price that’s right for you and your budget.</p>
+                        <p>Hire the right vendor When you’re ready, hire the perfect wedding vendors at a price that’s right for you and your budget.</p>
                     </div>
                     
                     <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
@@ -190,7 +191,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@adream_NY</a>
+                        <a href="#">@adreamevents_NY</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -206,7 +207,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@adream_NJ</a>
+                        <a href="#">@adreamevents_NJ</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -222,7 +223,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@adream_delaware</a>
+                        <a href="#">@adreamevents_delaware</a>
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -238,7 +239,7 @@
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
-                        <a href="#">@adream_philly</a>
+                        <a href="#">@adreamevents_philly</a>
                     </div>
                 </div>
             </div>
@@ -252,7 +253,7 @@
             <div class="row">
                 <div class="col span-1-of-3">
                     <blockquote>
-                        Adreamevent is just awesome! I just launched a startup which leaves me with no time to plan for my wedding, so Adreamevents is a life-saver. I got a photographer fast, plan my wedding, invitaions!!! We love our wedding pictures, it looks amazing!
+                        Adreamevent is just awesome! I just launched a startup which leaves me with no time to plan for my wedding, so Adreamevents is a life-saver. I got a photographer fast, and We love our wedding pictures, it looks amazing!
                         <cite><img src="resources/img/customer-1.jpg" alt="Albert D testimony">Alberto Duncan</cite>
                     </blockquote>
                 </div>
@@ -341,29 +342,33 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
             </div>
         </section>----->
         
-       <!--<section class="section-form" id="form" >
+    
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
-            <div class="row">
-                <div class="form-messages success">
-                            Thank you! Your message has been sent.
-                        </div>
-                <div class="form-messages error">
-                        Oops! Something went wrong. Please try again
-                        </div>
-            </div>--->
             
-            <!---<div class="row">
-                <form method="post" action="mailer.php" class="contact-form">
-                    <div class="row">
+            <div class="row">
+                 <form method="post" action="mailer.php" class="contact-form">
+                     <div class="row">
+                <?php
+                if($_GET['success']== 1){
+                    echo "<div class=\"form-messages success\"> Thank you! Your message has been sent.</div>";
+                }
+                if($_GET['success']== -1) {
+                    echo "<div class=\"form-messages error\"> Oops! Something went wrong. Please try again.</div>";
+                }
+                    ?>
+            </div>
+            
+            <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
                         </div>
-                    </div>
+                     </div>
+                   
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="email">Email</label>
@@ -411,9 +416,9 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
                     </div>
                     
                 </form>
+                
             </div>
-        </section>-->
-          
+        
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -456,8 +461,9 @@ I was looking for a professional photographer for my dather prom in New Jersey. 
 
   ga('create', 'UA-103043088-1', 'auto');
   ga('send', 'pageview');
-        
-            </script>
-        </section>
+
+</script>
+    
     </body>
+    
 </html>

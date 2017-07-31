@@ -28,13 +28,51 @@ body {
 
 .clearfix {zoom: 1;}
 .clearfix:after {
-    content: '.';
+    /*content: '.';*/
     clear: both;
-    display: block;
+    display: table;
     height: 0;
     visibility: hidden;
 }
 
+/* signup and register------=-*/
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+   
+}
+
+.cancelbtn2 {
+    width: auto;
+    padding: 14px 60px;
+    background-color: #f44336;
+    margin-right: 10%;
+   
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
@@ -56,7 +94,8 @@ section {
 /* ----- HEADINGS ----- */
 h1,
 h2,
-h3 {
+h3
+h4    {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -68,7 +107,7 @@ h1 {
     color: #fff;
     font-size: 230%;
     word-spacing: 4px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 1px;
     padding: 10px;
 }
@@ -94,6 +133,13 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+h4 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 /* ----- PARAGRAPHS ----- */
@@ -218,15 +264,34 @@ header {
     -webkit-transform: translate(-50%,-70%);
     transform: translate(-50%,-70%)
 }
-/* animated search*/
-
-input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+/*join us and login*/ 
+/**.joinus {
+    position: absolute;
+    width: 1000px;
+    top: 70%;
+    left: 51%;
+    -webkit-transform: translate(-50%,-70%);
+    transform: translate(-50%,-70%)  
 }
 
-input[type=text] {
+.login {
+    position: absolute;
+    width: 1000px;
+    top: 75%;
+    left: 51%;
+    -webkit-transform: translate(-50%,-70%);
+    transform: translate(-50%,-70%)  
+    
+}*/
+
+.imgcontainer{
+    
+    text-align: center;
+}
+/* animated search*/
+
+
+input[type=text], input [type=password] {
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -512,6 +577,14 @@ cite img {
     vertical-align: middle;
 }
 
+login img {
+    
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 
 /* ----------------------------------------------- */
 /* SIGN UP */
@@ -524,14 +597,20 @@ cite img {
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
+    position: fixed;
+    width: 500px;
+    top: 20%;
+    left: 25%;
+    -webkit-transform: translate(-50%,-70%);
+    transform: translate(-50%,-70%)  
 }
 
 .plan-box div {
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -543,32 +622,7 @@ cite img {
 
 .plan-box div:last-child {
     text-align: center;
-    border: 0;
-}
-
-
-.plan-price {
-    font-size: 300%;
-    margin-bottom: 10px;
-    font-weight: 100;
-    color: #e67e22;
-}
-
-.plan-price span {
-    font-size: 30%;
-    font-weight: 300;
-}
-
-.plan-price-meal {
-    font-size: 80%;
-}
-
-.plan-box ul {
-    list-style: none;
-}
-
-.plan-box ul li {
-    padding: 5px 0;
+    border: 0%x;
 }
 
 
@@ -582,11 +636,15 @@ cite img {
 }
 
 input[type=text],
-input[type=email],
+input[type=password],
 select,
 textarea {
     width: 100%;
-    padding: 7px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
@@ -695,9 +753,6 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
 
 /* ----------------------------------------------- */
 /* Animations */

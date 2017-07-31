@@ -120,3 +120,20 @@
     .contact-form {width: 100%; }
 }
 
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn2 {
+       width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
