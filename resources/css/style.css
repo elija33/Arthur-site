@@ -35,43 +35,10 @@ body {
     visibility: hidden;
 }
 
-/* signup and register------=-*/
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-   
-}
-
-.cancelbtn2 {
-    width: auto;
-    padding: 14px 60px;
-    background-color: #f44336;
-    margin-right: 10%;
-   
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
-    
-    float: left;
-    width: 50%;
-}
-
-/* Add padding to container elements */
+Add padding to container elements 
 .container {
-    padding: 16px;
+    padding: 0 16px;
 }
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
@@ -84,18 +51,18 @@ button {
 }
 
 section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .box {
-    padding: 1%;
+    padding: 0%;
 }
 
 /* ----- HEADINGS ----- */
 h1,
 h2,
 h3
-h4    {
+    {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -125,6 +92,8 @@ h3 {
     margin-bottom: 15px;
 }
 
+
+
 h2:after {
     display: block;
     height: 2px;
@@ -134,13 +103,7 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
-h4 {
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-}
+
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
@@ -248,12 +211,33 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
+
+
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(7, 6, 6, 0))), url(img/pexels-photo-503074.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(7, 6, 6, 0)), url(img/pexels-photo-503074.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
+
+}
+
+
+ .header-support{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(7, 6, 6, 0))), url(img/laptop-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(7, 6, 6, 0)), url(img/laptop-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.header-aboutus{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(7, 6, 6, 0.88))), url(img/gray.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(7, 6, 6, 0.73)), url(img/gray.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
 }
 
 .SlideNiv {
@@ -264,25 +248,29 @@ header {
     -webkit-transform: translate(-50%,-70%);
     transform: translate(-50%,-70%)
 }
-/*join us and login*/ 
-/**.joinus {
+
+
+.aboutNiv {
     position: absolute;
-    width: 1000px;
-    top: 70%;
-    left: 51%;
+    width: 1140px;
+    top: 35%;
+    left: 50%;
     -webkit-transform: translate(-50%,-70%);
-    transform: translate(-50%,-70%)  
+    transform: translate(-50%,-70%)
 }
 
-.login {
-    position: absolute;
-    width: 1000px;
-    top: 75%;
-    left: 51%;
-    -webkit-transform: translate(-50%,-70%);
-    transform: translate(-50%,-70%)  
+.priceNiv {
     
-}*/
+    position: absolute;
+    text-align: center;
+    width: 1140px;
+    top: 28%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-70%);
+    transform: translate(-50%,-70%)
+}
+
+
 
 .imgcontainer{
     
@@ -601,12 +589,7 @@ login img {
     margin-left: 10%;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
-    position: fixed;
-    width: 500px;
-    top: 20%;
-    left: 25%;
-    -webkit-transform: translate(-50%,-70%);
-    transform: translate(-50%,-70%)  
+     
 }
 
 .plan-box div {
@@ -623,6 +606,33 @@ login img {
 .plan-box div:last-child {
     text-align: center;
     border: 0%x;
+}
+
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+    text-align: center;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+    text-align: center;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
 }
 
 
@@ -671,6 +681,8 @@ input[type=checkbox] {
 
 .success {background-color: rgba(38, 191, 68, 0.8); }
 .error { background-color: rgba(209, 46, 46, 0.8);}
+
+
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
@@ -754,6 +766,7 @@ footer p {
     margin-top: 20px;
 }
 
+
 /* ----------------------------------------------- */
 /* Animations */
 /* ----------------------------------------------- */
@@ -778,4 +791,55 @@ footer p {
     opacity: 1;
 }
 
+
+/** about me page------------------*/ 
+
+box-sizing: border-box{
+    
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.title {
+  color: grey;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #555;
+}
 

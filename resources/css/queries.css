@@ -5,6 +5,24 @@
         padding: 0 2%;
     }
     
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .priceNiv {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    /* Big tablet to 1200px (widths smaller taht the 1140px row) */
+ @media only screen and (max-width: 1200px) {
+    .aboutNiv {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    
+    
+    
+    
     .row { padding: 0 2%; }
 }
 
@@ -136,4 +154,12 @@
     .cancelbtn, .signupbtn {
        width: 100%;
     }
+}
+
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
